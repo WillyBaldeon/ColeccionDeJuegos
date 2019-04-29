@@ -12,6 +12,8 @@
 		CDF4F49122724385001D3432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F48F22724385001D3432 /* Main.storyboard */; };
 		CDF4F49322724387001D3432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F49222724387001D3432 /* Assets.xcassets */; };
 		CDF4F49622724387001D3432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF4F49422724387001D3432 /* LaunchScreen.storyboard */; };
+		CDF4F49E22724A4C001D3432 /* VCJuegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F49D22724A4C001D3432 /* VCJuegos.swift */; };
+		CDF4F4A122724F26001D3432 /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF4F49F22724F26001D3432 /* ColeccionDeJuegos.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CDF4F49222724387001D3432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF4F49522724387001D3432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF4F49722724387001D3432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF4F49D22724A4C001D3432 /* VCJuegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCJuegos.swift; sourceTree = "<group>"; };
+		CDF4F4A022724F26001D3432 /* ColeccionDeJuegos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColeccionDeJuegos.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				CDF4F48B22724385001D3432 /* AppDelegate.swift */,
+				CDF4F49F22724F26001D3432 /* ColeccionDeJuegos.xcdatamodeld */,
 				CDF4F48D22724385001D3432 /* ViewController.swift */,
 				CDF4F48F22724385001D3432 /* Main.storyboard */,
+				CDF4F49D22724A4C001D3432 /* VCJuegos.swift */,
 				CDF4F49222724387001D3432 /* Assets.xcassets */,
 				CDF4F49422724387001D3432 /* LaunchScreen.storyboard */,
 				CDF4F49722724387001D3432 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF4F49E22724A4C001D3432 /* VCJuegos.swift in Sources */,
 				CDF4F48E22724385001D3432 /* ViewController.swift in Sources */,
 				CDF4F48C22724385001D3432 /* AppDelegate.swift in Sources */,
+				CDF4F4A122724F26001D3432 /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDF4F49F22724F26001D3432 /* ColeccionDeJuegos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDF4F4A022724F26001D3432 /* ColeccionDeJuegos.xcdatamodel */,
+			);
+			currentVersion = CDF4F4A022724F26001D3432 /* ColeccionDeJuegos.xcdatamodel */;
+			path = ColeccionDeJuegos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CDF4F48022724385001D3432 /* Project object */;
 }
